@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <style>
+        #botonPush
+        {
+            align-self: center;
+            margin: 0px 100px;
+        }
+
+        #Frm
+        {
+            border:brown double;
+            margin: auto 300px;
+        }
+        
+        #Abc
+        {
+            padding: auto;
+            text-align: center;
+        }
+
+        #telefono
+        {
+            margin: auto 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section>
+            <form name="PrimerForm" id="Frm" method="GET">
+                <p id="Abc">Direccion de mail:<input type="Email" name="email" id ="texto"></p><!--Recibe informacion -->
+                <p>Numero de telefono:<input type="number" name="numeroTelefono" id="telefono"></p>
+                <p>DNI:<input type="number" required name="dni" id="dni" max="99" placeholder="Entre 1 y 99"></p><!--Introduce y valida numeros-->
+                <p>Valor a elegir:<input type="range" id="rangerito" max="100" min="0" step="5"></p><!--Propiedad step,introduce valores validos multiplos de 5 en este caso-->
+                <p>Fecha-><input type="date" name="fecha"></p> 
+                <p><input type="submit" name="Valor" value="Push" id="botonPush"></p><!--Boton que anda informacion , atributo value cambia el texto del boton -->     
+            </form>
+    </section>
+</body>
+
+</html>

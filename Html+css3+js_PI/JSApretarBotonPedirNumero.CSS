@@ -1,0 +1,20 @@
+	#botonPedirNumero
+	{
+		margin:50px 400px;
+		text-align: center;
+		border: double;
+		background-color: lightblue;
+		font: 36px cursive;
+		transition: transform 0.050s ease 0.050s;
+		cursor:pointer; /*SIMULA UN BOTON*/
+	}
+
+	#botonPedirNumero:hover
+	{
+		background-color: mediumslateblue;
+	}
+
+	#palabraJavaScript 
+	{
+		color: tomato;
+	}

@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#tituloPagina
+{
+	background-color : black;
+	color : white;
+}
+
+#barraNavegacion
+{
+	background-color : red;
+}
+
+#barraLateral
+{
+	background-color : purple;
+	float : left;
+	height: 715px;
+}
+
+#contenidoPrincipal
+{
+	background-color : green;
+	margin-left: 300px;
+	padding-left: 50px;
+}
+
+#pieDePagina
+{
+	background-color : orange;
+}
+
+li
+{
+	background-color : yellow;
+	display : inline;
+}
+
