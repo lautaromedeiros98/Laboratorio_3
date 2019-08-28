@@ -1,0 +1,1 @@
+Hola();//muestro los 5 primeros smith's
