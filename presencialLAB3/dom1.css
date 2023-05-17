@@ -1,0 +1,28 @@
+.tarjeta
+{
+    display: inline-block;
+    background-color: black;
+    color: lightcoral;
+    margin: 20px
+}
+
+figcaption
+{
+    padding: 10% 0;
+    text-align: center;
+}
+
+.rotar-45
+{
+    transform: rotate(45deg);
+}
+
+.rotar-90
+{
+    transform: rotate(45deg);
+}
+
+.rotar-135
+{
+    transform: rotate(45deg);
+}
